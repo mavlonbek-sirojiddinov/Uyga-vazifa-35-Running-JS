@@ -12,7 +12,7 @@ body {
   padding-top: 25px;
   margin: 120px auto 0;
   width: 600px;
-  height: 350px;
+  height: 420px;
   background: black; 
   border-radius: 25px;
 }
@@ -77,6 +77,15 @@ h1 {
   100% {
     background-position: 0 0;
   }
+}
+
+.head-text {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Livvic';
+  margin-bottom: 20px;
 }
 
 .site-input {
@@ -253,4 +262,15 @@ h1 {
               0 0 30px aqua,
               0 0 40px aqua;
   font-size: 15px;
+}
+
+.btn:active {
+  transition: 0000.1s;
+  transform: scale(1);
+  box-shadow: 0 0 0px #0077ff,
+              0 0 10px #0077ff,
+              0 0 25px #0077ff;
+  background: #0077ff;
+  color: #fff;
+  letter-spacing: 0.2em;
 }
